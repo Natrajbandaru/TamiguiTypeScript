@@ -97,3 +97,40 @@ backgroundColor:colorTokens.dark.blue.blue7
 
 
 
+
+->Groups
+  Two Types  
+       -> Group
+          <Group.Item>
+          </Group.Item>
+        
+         prop: orentation : horizontal | Vertical
+          
+
+       -> XGroup
+          <XGroup.Item>
+          </XGroup.Item>
+       -> YGroup
+          <YGroup.Item>
+          </YGroup.Item>
+
+     prop : disabled                = true | fase
+            disablePassBorderRadius = boolean | 'bottom' | 'top' | 'start' | 'end'
+
+
+->Card
+    <Card>
+        <Card.Header >
+        </Card.Header >
+
+        <Card.Footer>
+        </Card.Footer>
+
+
+        <Card.Background>
+        </Card.Background>
+    </Card>
+
+
+
+        
